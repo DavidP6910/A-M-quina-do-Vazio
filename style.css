@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tex{
+    background-color: rgba(172, 170, 170, 0.363);
+    border-radius: 10px;
+    width: 30vw;
+    padding: 20px;
+    box-shadow: 0px 1px 4px 3px rgba(0, 0, 0, 0.37);
+
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+header>h1{
+    font-size: 5em;
+    font-variant: small-caps;}
+    main p{
+    
+
+    
+        width: max(45%, 250px) ;
+        min-width: 300px;
+        font-size: max(1.8em, 3vw);
+        text-align: left;
+        line-height: 1.8em;
+        font-family: serif;
+}
+.lg1{
+    background-color: white;
+
+}
+footer{
+    background-color: var(--cor1);
+    color: white;
+
+    text-align: center;
+
+    height: 20px;
+    padding: 5px;
+
+    font-family: sans-serif;
+}
+#um{
+    background-image: url(linkin-park-the-emptiness-machine-yt.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#dois{
+    background-image: url(R.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#tres{
+    background-image: url(th.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#quatro{margin-top:20px ;
+    background-image: url(History-1.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.lg2{padding: 20px;}
